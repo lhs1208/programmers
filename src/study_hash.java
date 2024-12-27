@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.Map.Entry;
 
 
 public class study_hash {
@@ -23,6 +24,16 @@ public class study_hash {
 			System.out.println(hash.containsValue(2));
 			
 		}
+		
+		for(Entry<String, Integer> entry : hash.entrySet()){
+			//키값
+			entry.getKey();
+			//밸류값
+			entry.getValue();
+		}
+		
+		
+		
 		
 		return 0;
 	}
